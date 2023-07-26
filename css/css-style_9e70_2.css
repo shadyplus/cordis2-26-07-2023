@@ -850,7 +850,7 @@ footer .cont_center {
     line-height: 1.3em;
     counter-increment: customlistcounter;
 }
-
+/* 
 .popul_comment .popular_block_list li::before {
     content: counter(customlistcounter, decimal) " ";
     float: right;
@@ -864,7 +864,7 @@ footer .cont_center {
     display: inline-block;
     margin-left: -35px;
     padding-top: 2px;
-}
+} */
 
 .popul_comment .popular_block_list li a {
     padding-top: 2px;
@@ -1175,7 +1175,7 @@ footer .cont_center {
 
 @media (max-width: 479px) {
     .content {
-        padding-right: 10px;
+        /* padding-right: 10px; */
         box-sizing: content-box;
     }
 
